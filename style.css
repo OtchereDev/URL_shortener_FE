@@ -323,4 +323,24 @@ footer .footer_link .socials li {
         margin-top: 2%;
         padding: 1%;
     }
+    .info .info_cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-right: 4%;
+    }
+    .info {
+        padding-bottom: 8%;
+    }
+    .info .title {
+        font-size: 2.5rem;
+        margin-bottom: 1%;
+    }
+    .info .info_para {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .info .info_cards .card {
+        margin-top: 8%;
+    }
 }
