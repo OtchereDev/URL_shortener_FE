@@ -412,4 +412,55 @@ footer .footer_link .socials li {
         padding: 2.5%;
         font-size: 1.1rem;
     }
+    .nav-bar {
+        min-height: 2vh;
+        padding-top: 1%;
+    }
+    .toggle {
+        display: none;
+    }
+    .nav-bar .logo {
+        width: 10%;
+        margin-left: 6%;
+    }
+    .nav-bar .logo img {
+        width: 80%;
+    }
+    .nav-bar .nav_links {
+        display: flex;
+        justify-content: space-between;
+        width: 84%;
+        padding-left: 1%;
+        padding-right: 3%;
+        margin-left: 0;
+        align-items: center;
+    }
+    .nav-bar .nav_links .components {
+        display: flex;
+        width: 31%;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+    }
+    .nav-bar .nav_links .auth {
+        display: flex;
+        width: 17%;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+    }
+    .nav-bar .nav_links .auth .btn-primary {
+        width: 146%;
+        padding: 14%;
+    }
+    .nav-bar .nav_links a {
+        text-decoration: none;
+        color: var(--Gray);
+    }
+    .nav-bar .nav_links a:hover {
+        color: black;
+    }
+    .nav-bar .nav_links a:focus {
+        color: black;
+    }
 }
