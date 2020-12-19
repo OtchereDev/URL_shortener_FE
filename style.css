@@ -269,10 +269,18 @@ footer .footer_link ul li:nth-child(1) {
     font-size: 1.4rem;
 }
 
+footer .footer_link .socials {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
 @media screen and (min-width:960px) {
     footer {
         display: flex;
         padding-top: 2%;
+        padding-bottom: 5%;
     }
     footer .footer_logo {
         width: 30%;
@@ -287,5 +295,10 @@ footer .footer_link ul li:nth-child(1) {
     }
     footer .footer_logo img {
         width: 60%;
+    }
+    footer .footer_link .socials {
+        width: 25%;
+        margin: 0;
+        margin-top: 3%;
     }
 }
