@@ -97,6 +97,10 @@ html {
     cursor: pointer;
 }
 
+.btn-primary:hover {
+    opacity: 0.5;
+}
+
 .hero .btn-primary {
     width: 50%;
     margin-bottom: 20%;
@@ -124,7 +128,7 @@ html {
     transform: translateY(-50%);
 }
 
-#shorten {
+.shorten {
     width: 95%;
     padding: 6%;
     border-radius: 8px;
@@ -132,6 +136,7 @@ html {
     margin-top: 5%;
     margin-bottom: 3%;
     outline: none;
+    font-family: inherit;
 }
 
 form {
@@ -150,7 +155,7 @@ form {
     font-weight: 700;
 }
 
-#shorten::placeholder {
+.shorten::placeholder {
     font-family: inherit;
     color: var(--Gray);
     font-size: 1rem;
@@ -282,6 +287,15 @@ footer .footer_link .socials li {
     font-size: 1.4rem;
 }
 
+footer .footer_link ul a {
+    text-decoration: none;
+    color: var(--Gray);
+}
+
+.error {
+    border: solid 1px red;
+}
+
 @media screen and (min-width:960px) {
     footer {
         display: flex;
@@ -352,7 +366,7 @@ footer .footer_link .socials li {
         background-image: url(images/bg-boost-desktop.svg);
         margin-bottom: 8%;
     }
-    #shorten {
+    .shorten {
         width: 70%;
         padding: 2.5%;
         margin-left: 2.5%;
@@ -409,7 +423,7 @@ footer .footer_link .socials li {
         width: 22%;
         margin-bottom: 13%;
         margin-left: 10%;
-        padding: 2.5%;
+        padding: 2%;
         font-size: 1.1rem;
     }
     .nav-bar {
@@ -462,5 +476,8 @@ footer .footer_link .socials li {
     }
     .nav-bar .nav_links a:focus {
         color: black;
+    }
+    .error {
+        border: solid 2px var(--Red);
     }
 }
