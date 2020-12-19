@@ -373,4 +373,43 @@ footer .footer_link .socials li {
         margin-bottom: 3%;
         padding: 2%;
     }
+    .hero {
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 9%;
+    }
+    .hero-right {
+        order: 2;
+        width: 35%;
+        text-align: center;
+        margin-top: 0%;
+    }
+    .hero-left {
+        order: 1;
+        width: 60%;
+        margin-top: 0%;
+        text-align: left;
+        padding-top: 11%;
+    }
+    .hero-left h1 {
+        width: 69%;
+        font-size: 4rem;
+        text-align: left;
+        line-height: 1.2;
+        margin-left: 10%;
+    }
+    .hero-left h5 {
+        width: 60%;
+        font-size: 1.1rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 10%;
+    }
+    .hero .btn-primary {
+        width: 22%;
+        margin-bottom: 13%;
+        margin-left: 10%;
+        padding: 2.5%;
+        font-size: 1.1rem;
+    }
 }
