@@ -276,6 +276,12 @@ footer .footer_link .socials {
     margin: auto;
 }
 
+footer .footer_link .socials li {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
 @media screen and (min-width:960px) {
     footer {
         display: flex;
@@ -300,5 +306,21 @@ footer .footer_link .socials {
         width: 25%;
         margin: 0;
         margin-top: 3%;
+    }
+    footer .footer_link ul li {
+        margin-top: 4%;
+    }
+    .ending {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        background-image: url(images/bg-boost-desktop.svg);
+    }
+    .ending h2 {
+        font-size: 2.5rem;
+    }
+    .ending .btn-primary {
+        width: 15%;
+        margin-top: 2%;
+        padding: 1%;
     }
 }
