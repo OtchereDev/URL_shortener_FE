@@ -113,13 +113,21 @@ html {
     /* padding-top: 32%; */
 }
 
+.message {
+    font-family: 'Poppins';
+    color: var(--Red);
+    font-size: 0.9rem;
+    margin-top: -2%;
+    padding-left: 3%;
+}
+
 .middle .shorten_form {
     width: 95%;
     margin-left: 2.5%;
     background-image: url(images/bg-boost-mobile.svg);
     background-color: var(--Very_Dark_Violet);
     background-size: cover;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     border-radius: 8px;
