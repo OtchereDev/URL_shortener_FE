@@ -47,21 +47,6 @@ function copyToClipboard(div) {
     window.getSelection().removeAllRanges()
 }
 
-async function postToAPI(input) {
-    let formData = new FormData
-    formData.append('link', input)
-
-    await response = fetch('api/Sample', {
-        body: formData,
-        method: 'post'
-    });
-
-    await data = response.json()
-
-    console.log(data)
-
-}
-
 
 
 // event listeners
@@ -75,14 +60,7 @@ form.addEventListener('submit', e => {
     } else {
         form.shortener.classList.remove('error')
         message.textContent = ''
-            // const response = postToAPI()
-            // response.then(data => {
-            //     console.log(data)
-            //         // const shortener = new Output
-            //         // shortener.insertHTML()
-            // }).catch(e => {
-            //     console.log(e)
-            // })
+
 
 
     }
