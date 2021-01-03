@@ -116,9 +116,10 @@ html {
 .message {
     font-family: 'Poppins';
     color: var(--Red);
-    font-size: 0.9rem;
-    margin-top: -2%;
-    padding-left: 3%;
+    font-size: 1rem;
+    margin-top: -1%;
+    position: absolute;
+    left: 5%;
 }
 
 .middle .shorten_form {
@@ -127,13 +128,12 @@ html {
     background-image: url(images/bg-boost-mobile.svg);
     background-color: var(--Very_Dark_Violet);
     background-size: cover;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    /* position: absolute;
-    top: -21%; */
     transform: translateY(-50%);
+    position: relative;
 }
 
 .shorten {
@@ -167,6 +167,72 @@ form {
     font-family: inherit;
     color: var(--Gray);
     font-size: 1rem;
+}
+
+.output {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    transform: translateY(-30%);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.output .outcome {
+    width: 100%
+}
+
+.output .outcome .links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.output .outcome .links .real_link {
+    width: 98%;
+    padding: 5% 5%;
+    overflow: hidden;
+    font-size: 1.2rem;
+    color: var(--Very_Dark_Violet);
+    font-weight: 500;
+}
+
+.output .outcome .links hr {
+    color: var(--Gray);
+    background-color: var(--Gray);
+    border-style: solid none none none;
+}
+
+.output .outcome .links .gen_link {
+    width: 100%;
+    padding: 5% 5%;
+    overflow: hidden;
+    font-size: 1.2rem;
+    color: var(--Cyan);
+}
+
+.output .copy {
+    width: 100%;
+}
+
+.output .copy .copy_btn {
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 5%;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--Cyan);
+    border: none;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
 }
 
 .info {
@@ -305,6 +371,9 @@ footer .footer_link ul a {
 }
 
 @media screen and (min-width:960px) {
+    .message {
+        bottom: 2%;
+    }
     footer {
         display: flex;
         padding-top: 2%;
