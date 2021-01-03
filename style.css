@@ -374,6 +374,8 @@ footer .footer_link ul a {
     .output {
         width: 95%;
         transform: translateY(-4%);
+        margin-bottom: 2%;
+        padding: 1%;
     }
     .output:last-child {
         margin-bottom: 100%;
