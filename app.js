@@ -75,14 +75,14 @@ form.addEventListener('submit', e => {
     } else {
         form.shortener.classList.remove('error')
         message.textContent = ''
-        const response = postToAPI()
-        response.then(data => {
-            console.log(data)
-                // const shortener = new Output
-                // shortener.insertHTML()
-        }).catch(e => {
-            console.log(e)
-        })
+            // const response = postToAPI()
+            // response.then(data => {
+            //     console.log(data)
+            //         // const shortener = new Output
+            //         // shortener.insertHTML()
+            // }).catch(e => {
+            //     console.log(e)
+            // })
 
 
     }
